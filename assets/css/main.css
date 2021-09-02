@@ -96,9 +96,8 @@ html {
   padding: 20px 20px;
 }
 
-
-.nav-item .nav-link{
-  color : #5bafe7 !important;
+.nav-item .nav-link {
+  color: #5bafe7 !important;
 }
 
 .nav-item:hover a,
@@ -172,12 +171,21 @@ html {
 
 .btn1 {
   border-radius: 5px 0 0 5px;
+  background-color: #5bafe7;
 }
 .btn2 {
   border-radius: 0;
+  background-color: #5bafe7;
 }
 .btn3 {
   border-radius: 0 5px 5px 0;
+  background-color: #5bafe7;
+}
+.btn:hover {
+  background-color: rgba(138, 138, 138, 0.5) !important;
+}
+.btn:focus{
+  box-shadow: none !important;
 }
 /* Navgation end */
 
@@ -427,13 +435,13 @@ html {
   display: inline-block;
   background: rgba(255, 255, 255, 0.61);
   text-align: center;
-  min-width : 200px;
-  padding : 40px 10px; 
-  transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  -moz-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  -o-transform: translate(-50%,-50%);
+  min-width: 200px;
+  padding: 40px 10px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 .index-about .experience h1 {
   color: #131313;
@@ -452,6 +460,9 @@ html {
 .about-info {
   padding-top: 90px;
   padding-bottom: 100px;
+}
+.about-info h3 {
+  line-height: 1.7em;
 }
 
 .about-info .about-list {
@@ -565,6 +576,18 @@ html {
   /* text-align: justify; */
 }
 
+.long-quote {
+  font-size: 14px;
+}
+
+.long-quote-jp {
+  font-size: 15px;
+}
+
+.long-quote-mm {
+  font-size: 13px;
+}
+
 .single-item .bod-name {
   padding-top: 30px;
 }
@@ -600,12 +623,13 @@ html {
   width: 100%;
 }
 .bod-img1 img {
-  width: 80%;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 
 .bod-img2 img {
-  width: 80%;
+  width: 90%;
   height: 100%;
   margin: 0 auto;
 }
@@ -767,12 +791,12 @@ figure img {
   font-size: 60px;
   font-family: "Roboto", sans-serif;
   /* color: rgb(0, 0, 0, 0.8); */
-  color : #fff;
+  color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
   line-height: 1.5;
-  width : 100%;
+  width: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -783,14 +807,13 @@ figure img {
   -o-transform: translate(-50%, -50%);
   z-index: 2;
 }
-.header .bg-cover{
+.header .bg-cover {
   position: absolute;
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.164);
   z-index: 1;
 }
-
 
 .header img {
   position: absolute;
@@ -1591,6 +1614,15 @@ figure img {
   .bod-name span {
     font-size: 24px !important;
   }
+  .long-quote {
+    font-size: 23px;
+  }
+  .long-quote-jp {
+    font-size: 25px;
+  }
+  .long-quote-mm {
+    font-size: 21px;
+  }
 }
 
 @media only screen and (max-width: 1691px) and (min-width: 1470px) {
@@ -1602,6 +1634,15 @@ figure img {
   }
   .bod-name span {
     font-size: 18px !important;
+  }
+  .long-quote {
+    font-size: 17px;
+  }
+  .long-quote-jp {
+    font-size: 20px;
+  }
+  .long-quote-mm {
+    font-size: 16px;
   }
 }
 
@@ -1712,6 +1753,15 @@ figure img {
   .bod-section {
     padding: 40px 75px;
   }
+  .long-quote {
+    font-size: 11px;
+  }
+  .long-quote-jp {
+    font-size: 12px;
+  }
+  .long-quote-mm {
+    font-size: 11px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -1769,7 +1819,6 @@ figure img {
   .blog-day {
     font-size: 20px;
   }
-  
 }
 @media only screen and (max-width: 992px) and (min-width: 767px) {
   .about-img-blog {
@@ -1800,14 +1849,13 @@ figure img {
   .header {
     height: 300px;
   }
-  
+
   .header h3 {
     font-size: 40px;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  
   .header {
     height: 250px;
   }
