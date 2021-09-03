@@ -552,7 +552,7 @@ html {
 /* index bod section */
 .bod-section {
   background-color: #5bafe7;
-  padding: 60px 120px;
+  padding: 35px 120px 30px;
 }
 
 .bod-header {
@@ -574,21 +574,21 @@ html {
   border-left: 2px solid #0066ff;
   background-color: #5be0f70c;
   color: rgb(255, 255, 255);
-  font-size: 18px !important;
+  font-size: 16px !important;
   text-align: justify;
   /* text-align: justify; */
 }
 
 .long-quote {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .long-quote-jp {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .long-quote-mm {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .single-item .bod-name {
@@ -626,14 +626,12 @@ html {
   width: 100%;
 }
 .bod-img1 img {
-  width: 100%;
-  height: 100%;
+  width: 75%;
   margin: 0 auto;
 }
 
 .bod-img2 img {
-  width: 90%;
-  height: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 /* index bod section end */
@@ -1608,23 +1606,26 @@ figure img {
 }
 
 @media only screen and (max-width: 2400px) and (min-width: 1691px) {
-  .bod-blockquote {
-    font-size: 28px !important;
+  .bod-header {
+    font-size: 50px;
   }
-  .bod-name h4 {
+  .bod-blockquote {
     font-size: 26px !important;
   }
-  .bod-name span {
+  .bod-name h4 {
     font-size: 24px !important;
   }
+  .bod-name span {
+    font-size: 22px !important;
+  }
   .long-quote {
-    font-size: 23px;
+    font-size: 20px;
   }
   .long-quote-jp {
-    font-size: 25px;
+    font-size: 23px;
   }
   .long-quote-mm {
-    font-size: 21px;
+    font-size: 19px;
   }
 }
 
