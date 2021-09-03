@@ -2021,6 +2021,9 @@ figure img {
   .overview-img {
     height: 300px;
   }
+  .fixed {
+    padding: 0 20px;
+  }
 }
 
 @media only screen and (max-width: 376px) {
