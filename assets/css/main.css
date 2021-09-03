@@ -25,6 +25,7 @@ html {
   -o-border-radius: 50%;
   background-color: #5bafe7;
   color: #ffffff;
+  box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.2);
 }
 #toTop:hover,
 #toTop:focus {

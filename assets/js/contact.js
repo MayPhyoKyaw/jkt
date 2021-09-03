@@ -52,7 +52,7 @@ function validateField(field, lang) {
       if (field.value.length < 3) {
         onInvalid(field, "件名には３文字以上必要です");
       } else if (field.value.length > 60) {
-        onInvalid(field, "内容を入力してください");
+        onInvalid(field, "件名には最大60文字必要です");
       } else {
         onValid(field);
         isOk = true;
