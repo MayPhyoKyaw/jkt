@@ -564,6 +564,8 @@ html {
 
 .single-item {
   /* display: block; */
+  display : flex;
+  align-items: center;
   height: auto;
 }
 
@@ -577,7 +579,7 @@ html {
   /* text-align: justify; */
 }
 
-.long-quote {
+/* .long-quote {
   font-size: 14px;
 }
 
@@ -587,7 +589,7 @@ html {
 
 .long-quote-mm {
   font-size: 13px;
-}
+} */
 
 .single-item .bod-name {
   padding-top: 30px;
@@ -1615,7 +1617,7 @@ figure img {
   .bod-name span {
     font-size: 24px !important;
   }
-  .long-quote {
+  /* .long-quote {
     font-size: 23px;
   }
   .long-quote-jp {
@@ -1623,7 +1625,7 @@ figure img {
   }
   .long-quote-mm {
     font-size: 21px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 1691px) and (min-width: 1470px) {
@@ -1636,7 +1638,7 @@ figure img {
   .bod-name span {
     font-size: 18px !important;
   }
-  .long-quote {
+  /* .long-quote {
     font-size: 17px;
   }
   .long-quote-jp {
@@ -1644,7 +1646,7 @@ figure img {
   }
   .long-quote-mm {
     font-size: 16px;
-  }
+  } */
 }
 
 @media only screen and (min-width: 1100px) {
@@ -1754,7 +1756,7 @@ figure img {
   .bod-section {
     padding: 40px 75px;
   }
-  .long-quote {
+  /* .long-quote {
     font-size: 11px;
   }
   .long-quote-jp {
@@ -1762,7 +1764,7 @@ figure img {
   }
   .long-quote-mm {
     font-size: 11px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 991px) {
