@@ -185,7 +185,7 @@ html {
 .btn:hover {
   background-color: rgba(138, 138, 138, 0.5) !important;
 }
-.btn:focus{
+.btn:focus {
   box-shadow: none !important;
 }
 /* Navgation end */
@@ -563,20 +563,24 @@ html {
 }
 
 .single-item {
-  /* display: block; */
-  display : flex;
+  display: flex;
   align-items: center;
   height: auto;
+  margin: 0 auto;
+  padding-bottom : 10px;
 }
 
 .bod-blockquote {
-  padding: 30px 50px 30px 30px;
+  padding-left: 20px;
   border-left: 2px solid #0066ff;
   background-color: #5be0f70c;
   color: rgb(255, 255, 255);
   font-size: 16px !important;
   text-align: justify;
-  /* text-align: justify; */
+}
+
+.mm-quote {
+  line-height: 1.7em;
 }
 
 .long-quote {
@@ -791,7 +795,6 @@ figure img {
 .header h3 {
   font-size: 60px;
   font-family: "Roboto", sans-serif;
-  /* color: rgb(0, 0, 0, 0.8); */
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
@@ -874,6 +877,7 @@ figure img {
   font-size: 17px;
   text-align: justify;
   letter-spacing: 0.5px;
+  line-height: 1.7em;
 }
 
 .about-img-blog {
@@ -1062,8 +1066,6 @@ figure img {
 
 .overview-img {
   position: relative;
-  /* max-height: 450px; */
-  /* min-height: 250px; */
   height: 450px;
   width: 100%;
   margin-top: 20px;
@@ -1107,6 +1109,9 @@ figure img {
   font-style: italic;
   padding: 15px 15px 15px 20px;
   border-left: 2px solid;
+  letter-spacing: 1px;
+  line-height: 1.7em;
+  text-align: justify;
 }
 
 .hr2 {
@@ -1484,7 +1489,6 @@ figure img {
 }
 
 .announcement-blog-title h1 {
-  /* font-family: "Rampart One", cursive; */
   font-family: "Roboto", sans-serif;
   color: #5bafe7;
   font-size: 58px;
@@ -1494,7 +1498,6 @@ figure img {
 }
 
 .announcement-blog-title h2 {
-  /* font-family: "Rampart One", cursive; */
   font-family: "Roboto", sans-serif;
   color: #5bafe7;
   font-size: 46px;
@@ -1508,7 +1511,6 @@ figure img {
 
 .other-info-blog h3 {
   padding: 50px 0;
-  /* font-family: "Rampart One", cursive; */
   color: #5bafe7;
   font-weight: 900;
   line-height: 1.5;
@@ -1574,7 +1576,6 @@ figure img {
 }
 
 .link-style a {
-  /* font-family: "Rampart One", cursive; */
   text-decoration: none;
   color: #5bafe7;
   font-weight: 900;
@@ -1755,7 +1756,7 @@ figure img {
     font-size: 15px !important;
   }
   .bod-section {
-    padding: 40px 75px;
+    padding: 40px 60px;
   }
   .long-quote {
     font-size: 11px;
@@ -1791,9 +1792,6 @@ figure img {
 
   .bod-blockquote {
     font-size: 15px !important;
-  }
-  .bod-section {
-    padding: 40px 70px;
   }
   .lang-xl {
     display: none;
@@ -1849,26 +1847,18 @@ figure img {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .header {
     height: 300px;
   }
-
   .header h3 {
     font-size: 40px;
   }
-}
 
-@media only screen and (max-width: 500px) {
-  .header {
-    height: 250px;
+  .bod-blockquote {
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  .header h3 {
-    font-size: 30px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
   .small-brand {
     display: block;
   }
@@ -1925,13 +1915,27 @@ figure img {
     padding-top: 60px;
     padding-bottom: 20px;
   }
+  .bod-section {
+    padding: 10px;
+  }
 }
+
+@media only screen and (max-width: 500px) {
+  .header {
+    height: 250px;
+  }
+  .header h3 {
+    font-size: 30px;
+  }
+  .bod-section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 @media only screen and (max-width: 775px) {
   .bod-blockquote {
     font-size: 14px !important;
-  }
-  .bod-section {
-    padding: 40px 60px;
   }
   .mission-blog-img {
     padding-top: 20px;
@@ -2028,7 +2032,8 @@ figure img {
 
 @media only screen and (max-width: 376px) {
   .bod-section {
-    padding: 40px 40px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .small-brand {
     font-size: 16px;
@@ -2095,14 +2100,17 @@ figure img {
   .bod-blockquote {
     padding: 10px;
   }
-  .bod-section {
-    padding: 10px;
-  }
   .carousel-indicators {
     padding-top: 20px;
   }
   .medium-header-text h3 {
     font-size: 43px;
     letter-spacing: 5px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 450px) {
+  .activity-gallery img {
+    height: 270px;
   }
 }
