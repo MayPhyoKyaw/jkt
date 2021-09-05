@@ -10,7 +10,7 @@ function setCurrentImg(current) {
   document.getElementById("img").src =
     `${url.join("/")}/images/gallery/${current}.jpg` ||
     `${url.join("/")}/images/gallery/${current}.JPG`;
-  if (currentImg === 41) {
+  if (currentImg === 49) {
     document.getElementById("right-arrow").style.display = "none";
   } else if (currentImg === 1) {
     document.getElementById("left-arrow").style.display = "none";
