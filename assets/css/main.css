@@ -1349,8 +1349,7 @@ figure img {
   cursor: default;
 }
 .blog-date:hover {
-  background-color: transparent;
-  color: #131313;
+  background-color: rgba(19, 19, 19, 0.5);
   transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -1364,6 +1363,7 @@ figure img {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 40px;
+  padding-bottom: 5px;
 }
 .activity-gallery {
   width: 100%;
