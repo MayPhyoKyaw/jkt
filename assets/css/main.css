@@ -209,6 +209,7 @@ html {
   width: 70%;
   left: 50%;
   top: 50%;
+  line-height : 1.5em;	
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
